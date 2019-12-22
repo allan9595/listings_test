@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":320:{a:2:{s:7:"defects";a:3:{s:29:"ListingImageTest::testNoImage";i:4;s:35:"ListingImageTest::testFullPathImage";i:4;s:36:"ListingImageTest::testBuildPathImage";i:4;}s:5:"times";a:3:{s:29:"ListingImageTest::testNoImage";d:0.007;s:35:"ListingImageTest::testFullPathImage";d:0;s:36:"ListingImageTest::testBuildPathImage";d:0;}}}
