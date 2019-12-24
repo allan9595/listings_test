@@ -3,7 +3,7 @@
     colors="true"
     printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
 >
-   <filter>
+    <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">classes</directory>
         </whitelist>

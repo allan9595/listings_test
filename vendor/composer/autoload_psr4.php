@@ -17,4 +17,5 @@ return array(
     'Codedungeon\\PHPUnitPrettyResultPrinter\\' => array($vendorDir . '/codedungeon/phpunit-result-printer/src'),
     'Codedungeon\\PHPCliColors\\' => array($vendorDir . '/codedungeon/php-cli-colors/src'),
     'Bakyt\\' => array($vendorDir . '/2bj/phanybar/src'),
+    '' => array($baseDir . '/classes'),
 );
