@@ -2,7 +2,7 @@
 
 **listings_test** 
 
-The listings_test demonstrates my ability to use phpunit to test an existing project, and adding new features based on the written tests (Test Driven Development). 
+The listings_test demonstrates my ability to use phpunit to test an existing project, and to add new features based on the written tests (Test Driven Development). 
 
 Note: 
 
