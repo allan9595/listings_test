@@ -2,7 +2,7 @@
 
 class ListingBasic
 {
-    private $id, $title, $website, $email, $twitter;
+    private $id, $title, $website, $email, $twitter, $image;
     protected $status = 'basic';
 
     /**
@@ -165,6 +165,30 @@ class ListingBasic
             return;
         }
         $this->status = trim(filter_var($value, FILTER_SANITIZE_STRING));
+    }
+
+    /**
+     * Gets the local property $image
+     * @return string image
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    /**
+     * Cleans up and sets the local property $image
+     * @param string $value to set property
+     */
+    public function setImage($value)
+    {
+        if(empty($value)){
+            $this->image = false;
+        }else if(substr($value, 0, 4) == 'http' || substr($value, 0, 5) == 'https'){
+            $this->image = $value;
+        }else{
+            $this->image = (parse_url($value))["path"];
+        }
     }
 
     /**

@@ -35,12 +35,13 @@ class ListingImageTest extends TestCase
     }
     public function testBuildPathImage()
     {
+        define('BASE_URL', '');
         $data = [
             'id' => 1,
             'title' => 'Test Title',
             'image' => 'images/listings/1.png',
         ];
         $listing = new ListingBasic($data);
-        $this->assertEquals(BASE_URL.'/'.$data['image'], $listing->getImage());
+        $this->assertEquals(BASE_URL.$data['image'], $listing->getImage());
     }
 }

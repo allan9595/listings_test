@@ -5,4 +5,19 @@ Listing Basic
  [x] List basic create object
  [x] List basic get status return valid data
  [x] List basic get method return valid data
+ [x] List basic to array return valid data
+
+Listing Featured
+ [x] List featured get status return valid data
+ [x] List featured coc return valid data
+
+Listing Image
+ [x] No image
+ [x] Full path image
+ [x] Build path image
+
+Listing Premium
+ [x] List premium get status return valid data
+ [x] List premium get description return valid data
+ [x] List premium display allowed tags
 
